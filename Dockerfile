@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-glibc:latest
 
-MAINTAINER Kodai Kato
+MAINTAINER K.Kato
 
 ENV PATH=/opt/conda/bin:$PATH \
     ANACONDA=Anaconda3-4.2.0-Linux-x86_64.sh
