@@ -16,6 +16,6 @@ RUN apk add --no-cache --virtual=build-deps --update-cache \
     
 WORKDIR /root/notebook/
 
-CMD ["/bin/sh", "-c", "jupyter", "notebook", "--no-browser", "--port=8888", "--ip=0.0.0.0"]
+CMD ["/bin/sh", "-c", "jupyter notebook --no-browser --port=8888 --ip=0.0.0.0"]
 
 
